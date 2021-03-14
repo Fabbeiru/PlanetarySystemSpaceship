@@ -137,4 +137,4 @@ Por otro lado, las librerías empleadas fueron:
 * <a href="https://github.com/extrapixel/gif-animation">GifAnimation</a>
 
 Modelo 3D de la nave:
-* "Star Wars Republic Frigate" (https://skfb.ly/6RNL6) by iedalton is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "<a href="https://skfb.ly/6RNL6">Star Wars Republic Frigate</a>" by <a href="https://sketchfab.com/iedalton">iedalton</a> from Sketchfab.
