@@ -3,7 +3,7 @@ Planetary system including a camera/spaceship functionality using processing.
 
 ## Introducción
 El objetivo de esta segunda práctica de la asignatura de 4to, Creación de Interfaces de Usuario (CIU), es empezar a tratar los conceptos y las primitivas básicas 3D para el dibujo de objetos. Para ello, se ha pedido el desarrollo de una aplicación capaz de crear a partir de un perfil de una figura, en la medida de lo posible, cualquier sólido de revolución usando el lenguaje de programación y el IDE llamado Processing. Este permite desarrollar código en diferentes lenguajes y/o modos, como puede ser processing (basado en Java), p5.js (librería de JavaScript), Python, entre otros.
-<p align="center"><img src="/planetarySystemGif.gif" alt="Planetary system v2 using processing"></img></p>
+<p align="center"><img src="/planetarySystem2Gif.gif" alt="Planetary system v2 using processing"></img></p>
 
 ## Controles
 Los controles de la aplicación se mostrarán en todo momento por pantalla para facilitar su uso al usuario:
@@ -12,13 +12,13 @@ Los controles de la aplicación se mostrarán en todo momento por pantalla para 
 
 ## Descripción
 Aprovechando que el lenguaje de programación que utiliza el IDE Processing por defecto está basado en Java, podemos desarrollar nuestro código utilizando el paradigma de programación de "Programación Orientada a Objetos". Así pues, hemos descrito tres clases de Java:
-- **PlanetarySystem:** clase principal.
+- **PlanetarySystemv2:** clase principal.
 - **Planet:** clase que representa al objeto/resultado de crear cada planeta.
 - **Moon:** clase que representa al objeto/resultado de crear cada luna y/o satélite de un planeta.
 - **Star:** clase que representa al objeto/resultado de crear una estrella.
 
 ## Explicación
-### Clase PlanetarySystem
+### Clase PlanetarySystemv2
 Esta es la clase principal de la aplicación, la cual gestiona la información mostrada por pantalla al usuario (interfaz gráfica), esto es, el desarrollo de los métodos setup() y draw().
 ```java
 void setup() {
@@ -125,7 +125,7 @@ void orbit(){
 Como se puede ver, cada objeto *Planet*, lleva asociado o no, otro objeto *Moon*, que en caso de disponer de uno, solo se mostrará por pantalla si existe el planeta al que está vinculado/relacionado, esto es, si un objeto *Planet* al inicializarlo se le indica un objeto *Moon*, el planeta será el encargado de llamar a los métodos *orbit()* y *display()* de la luna y/o satélite.
 
 ## Descarga y prueba
-Para poder probar correctamente el código, es necesario descargar todos los ficheros (el .zip del repositorio) y en la carpeta llamada PlanetarySystem se encuentran los archivos de la aplicación listos para probar y ejecutar. El archivo "README.md" y aquellos fuera de la carpeta del proyecto (PlanetarySystem), son opcionales, si se descargan no deberían influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
+Para poder probar correctamente el código, es necesario descargar todos los ficheros (el .zip del repositorio) y en la carpeta llamada PlanetarySystemv2 se encuentran los archivos de la aplicación listos para probar y ejecutar. El archivo "README.md" y aquellos fuera de la carpeta del proyecto (PlanetarySystemv2), son opcionales, si se descargan no deberían influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
 
 ## Recursos empleados
 Para la realización de este sistema planetario en 3D, se han consultado y/o utilizado los siguientes recursos:
