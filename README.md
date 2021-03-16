@@ -11,6 +11,7 @@ Los controles de la aplicación se mostrarán en todo momento por pantalla para 
 - **Teclas Q E:** Desplaza la nave respecto al eje Z (se acerca/aleja al sistema).
 - **Tecla C:** Cambia la perspectiva.
 - **Teclas N M:** Al presionar estas teclas podremos rotar nuestro sistema planetario para observar el resultado en su completitud.
+- **Tecla R:** Resetea la posición de la nave y la rotación del sistema planetario.
 - **Tecla ESC:** Cerrar la aplicación.
 
 ## Descripción
