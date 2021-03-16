@@ -68,8 +68,6 @@ void draw() {
 }
 ```
 Aquí se declaran varios métodos que nos ayudan a mantener el código limpio y ordenado, además de permitir que en un futuro, si se realizan cambios, no afecten a todo el código. Tenemos dos métodos: *initSystem()* y *drawSystem()*, estos, son los encargados de cargar las imágenes/texturas que se le aplicaran a las esferas, inicializar los objetos que conforman el sistema planetario y de llamar a los métodos nativos de las clases de los objetos *Planet*, *Moon* y *Star* que mostrará por pantalla las esferas, su movimiento alrededor de un punto central (en nuestro caso, al representar el Sistema Solar, es el Sol), y comprobará y reseteará el ángulo de giro de los planetas y lunas y/o satélites.
-
-Como se puede ver, para la implementación de la cámara, se ha realizado de una manera diferente a usar la función *camera()* y sus nueve argumentos, esto es porque, no se conseguía el resultado esperado y por ello, se buscó una segunda opción. La solución por la que se ha optado hace uso de funciones propias de Processing, de manera que, todas aquellas funciones/métodos y/o transformaciones que se encuentren entre *beginCamera()* y *endCamera()*, se aplicarán a la configuración por defecto de *camera()*. Así pues, la cámara se desplazará a unas coordenadas en el sistema que corresponden aproximadamente con la misma posición de la nave, simulando así, una vista en primera persona.
 ```java
 void initSystem() {
   sunImg = loadImage("Sun.jpg");
@@ -190,6 +188,18 @@ void display(){
 }
 ```
 Es la clase que representa a la nave que recorre el sistema planetario. Aquí, se configuran las características y propiedades del objeto *Frigate*, y donde están implementados los métodos que actualizan la posición de la nave en el sistema, la resetean y la muestran por pantalla.
+
+# Cámara
+Como se puede ver a continuación, para la implementación de la cámara, se ha realizado de una manera diferente a usar la función *camera()* y sus nueve argumentos, esto es porque, no se conseguía el resultado esperado y por ello, se buscó una segunda opción. La solución por la que se ha optado hace uso de funciones propias de Processing, de manera que, todas aquellas funciones/métodos y/o transformaciones que se encuentren entre *beginCamera()* y *endCamera()*, se aplicarán a la configuración por defecto de *camera()*. Así pues, la cámara se desplazará a unas coordenadas en el sistema que corresponden con la posición de la nave, simulando así, una vista en primera persona.
+```java
+  camX = -frigate.x/10;
+  camY = -frigate.y/10;
+  camZ = -frigate.z/10;
+  beginCamera();
+  camera();
+  translate(camX, camY+30, camZ+1200);
+  endCamera();
+```
 
 ## Descarga y prueba
 Para poder probar correctamente el código, es necesario descargar todos los ficheros (el .zip del repositorio) y en la carpeta llamada PlanetarySystemv2 se encuentran los archivos de la aplicación listos para probar y ejecutar. El archivo "README.md" y aquellos fuera de la carpeta del proyecto (PlanetarySystemv2), son opcionales, si se descargan no deberían influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
