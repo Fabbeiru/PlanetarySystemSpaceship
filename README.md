@@ -7,7 +7,7 @@ El objetivo de esta segunda práctica de la asignatura de 4to, Creación de Inte
 
 ## Controles
 Los controles de la aplicación se mostrarán en todo momento por pantalla para facilitar su uso al usuario:
-- **Teclas W A S D:** Desplaza la nave respecto a los ejes vertical y horizontal (sube/baja, izquierda/derecha).
+- **Teclas W A S D:** Desplaza la nave respecto a los ejes X e Y (sube/baja, izquierda/derecha).
 - **Teclas Q E:** Desplaza la nave respecto al eje Z (se acerca/aleja al sistema).
 - **Tecla C:** Cambia la perspectiva.
 - **Teclas N M:** Al presionar estas teclas podremos rotar nuestro sistema planetario para observar el resultado en su completitud.
