@@ -23,7 +23,7 @@ Aprovechando que el lenguaje de programación que utiliza el IDE Processing por 
 - **Dot:** clase que representa al objeto/resultado de crear cada uno de los puntos que conforma el *starfield* o campo de estrellas.
 - **Frigate:** clase que representa al objeto/resultado de crear la nave.
 
-Para la realización de este proyecto se ha reutilizado el código de *PlanetarySystem*. Así pues,se han aplicado mejoras funcionales y extras al mismo como, por ejemplo, una pantalla de inicio dinámica o un efecto de campo de estrellas o *starfield* que transmite la sensación al usuario de velocidad, esto es, que se desplaza en el sistema.
+Para la realización de este proyecto se ha reutilizado el código de *PlanetarySystem*. Así pues, se han aplicado mejoras funcionales y extras al mismo como, por ejemplo, una pantalla de inicio dinámica o un efecto de campo de estrellas o *starfield* que transmite la sensación al usuario de velocidad, esto es, que se desplaza en el sistema.
 
 ## Explicación
 ### Clase PlanetarySystemv2
