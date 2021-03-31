@@ -2,7 +2,7 @@
 Planetary system including a camera/spaceship functionality using processing.
 
 ## Introducción
-El objetivo de esta práctica de la asignatura de 4to, Creación de Interfaces de Usuario (CIU), es empezar a tratar los conceptos y las primitivas básicas 3D para el dibujo de objetos y la vista desde diferentes perspectivas con el uso de cámaras. Para ello, se ha pedido el desarrollo de una aplicación que simule un sistema planetario en movimiento y que incluya, una nave que se desplace en el sistema y una funcionalidad de una cámara que nos permita cambiar la perspectiva desde la que se ve el proyecto. Todo ello, usando el lenguaje de programación y el IDE llamado Processing. Este permite desarrollar código en diferentes lenguajes y/o modos, como puede ser processing (basado en Java), p5.js (librería de JavaScript), Python, entre otros.
+El objetivo de esta práctica de la asignatura de 4to, Creación de Interfaces de Usuario (CIU), es empezar a tratar los conceptos, las primitivas básicas 3D para el dibujo de objetos y la vista desde diferentes perspectivas con el uso de cámaras. Para ello, se ha pedido el desarrollo de una aplicación que simule un sistema planetario en movimiento y que incluya, una nave que se desplace en el sistema y una funcionalidad de una cámara que nos permita cambiar la perspectiva desde la que se ve el proyecto. Todo ello, usando el lenguaje de programación y el IDE llamado Processing. Este permite desarrollar código en diferentes lenguajes y/o modos, como puede ser processing (basado en Java), p5.js (librería de JavaScript), Python, entre otros.
 <p align="center"><img src="/planetarySystem2Gif.gif" alt="Planetary system v2 using processing"></img></p>
 
 ## Controles
